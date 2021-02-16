@@ -1,10 +1,15 @@
+const Store = require("../store");
+
+
 class Car {
 
+    storage;
 
     constructor() {
+        this.storage = new Store();
 
 
     }
 }
-
-module.exports = Car;
+let carController = new Car();
+module.exports = carController;
