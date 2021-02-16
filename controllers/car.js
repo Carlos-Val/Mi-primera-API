@@ -1,4 +1,4 @@
-const Store = require("../store");
+const Storage = require("../storage");
 
 
 class Car {
@@ -6,7 +6,7 @@ class Car {
     storage;
 
     constructor() {
-        this.storage = new Store();
+        this.storage = new Storage();
 
 
     }

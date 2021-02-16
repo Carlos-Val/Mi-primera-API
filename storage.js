@@ -1,4 +1,4 @@
-class Store {
+class Storage {
 
     state = [];
 
@@ -17,4 +17,4 @@ class Store {
     }
 }
 
-module.exports = Store;
+module.exports = Storage;
