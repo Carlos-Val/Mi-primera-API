@@ -5,6 +5,7 @@ class Car {
 
     storage;
 
+
     constructor() {
         this.storage = new Storage();
     }

@@ -1,12 +1,14 @@
 class Storage {
 
+
     state = [];
 
     constructor() {
-        console.log("se ha creado una instancia de Store")
+        console.log("se ha creado una instancia de Store");
 
 
     };
+
 
     async set(object) {
         this.state.push(object)
@@ -14,7 +16,10 @@ class Storage {
     }
     async get() {
         return this.state.slice(-10);
+
     }
+
+
 }
 
 module.exports = Storage;
