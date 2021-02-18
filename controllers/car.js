@@ -6,17 +6,18 @@ class Car {
     storage;
 
 
+
     constructor() {
         this.storage = new Storage();
     }
 
     async indexAll() {
-
         return this.storage.get()
     }
 
-    async store() {
-        return
+    async store(car) {
+        return this.storage.set(car)
+
     }
 
     async update() {
